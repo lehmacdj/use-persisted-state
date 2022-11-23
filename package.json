@@ -1,5 +1,5 @@
 {
-  "name": "use-persisted-state",
+  "name": "@lehmacdj/use-persisted-state",
   "publishConfig": {
     "tag": "latest"
   },
