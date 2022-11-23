@@ -1,9 +1,10 @@
 {
   "name": "@lehmacdj/use-persisted-state",
   "publishConfig": {
-    "tag": "latest"
+    "tag": "latest",
+    "access": "public"
   },
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state.",
   "main": "dist/use-persisted-state.js",
   "umd:main": "dist/use-persisted-state.umd.js",
@@ -45,12 +46,12 @@
     "jest": "^23.6.0",
     "jest-dom": "^3.0.0",
     "microbundle": "^0.12.4",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rimraf": "^2.6.2"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "jest": {
     "coverageThreshold": {
